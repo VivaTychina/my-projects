@@ -1,0 +1,109 @@
+
+<div class="bg-custom shadow-md max-w-md pt-7 px-7 rounded-xl">
+ <header class="flex items-center">
+   <i class="fas fa-bars text-purple-500 text-2xl"></i>
+   <h1 class="w-full text-center font-semibold text-2xl text-purple-500"><span class="text-yellow-500">Pet</span>Shop</h1>
+    
+ </header>
+  
+ <nav class="mt-8">
+       <ul class="flex gap-6 justify-center">
+         <li class="flex flex-col bg-white rounded-full items-center justify-between px-5 py-2 w-20 h-28 shadow-md text-gray-600 font-semibold"><i class="fas fa-grip-horizontal text-purple-500 text-3xl"></i>All</li>
+           <li class="flex flex-col border  border-purple-200 rounded-full items-center justify-between px-5 py-2 w-20 h-28 text-purple-400"><i class="fas fa-cat text-purple-300 text-3xl"></i>Cat</li>
+           <li class="flex flex-col border  border-purple-200 rounded-full items-center justify-between px-5 py-2 w-20 h-28 text-purple-400"><i class="fas fa-dog text-purple-300 text-3xl"></i>Dog</li>
+           <li class="flex flex-col border  border-purple-200 rounded-full items-center justify-between px-5 py-2 w-20 h-28 text-purple-400"><i class="fas fa-fish text-purple-300 text-3xl"></i>Fish</li>
+         
+       </ul>
+     </nav>
+  
+  <section class="mt-8">
+    <div class="relative">
+      <img src="https://t3.ftcdn.net/jpg/02/69/57/14/360_F_269571449_Ek606WFhbV9Rd4uqcSDAHXCmZtYJ3Jo8.jpg" alt="Bernese" class="h-40 object-cover rounded-2xl w-full">
+       <span class="absolute top-3 right-2 bg-gray-600 py-1.5  px-2.5 uppercase text-xs tracking-wide text-gray-200 rounded-lg">ready to leave now</span>
+    <h3 class="absolute top-14 right-6 text-gray-800 font-bold capitalize text-xl">funny <br> bernese</h3>
+    </div>
+   
+  </section>
+  
+  <section class="grid grid-cols-2 mt-8 gap-8 overflow-hidden" style="height:490px;">
+    <div class="rounded-xl bg-white shadow-lg h-64">
+          <img src="https://t4.ftcdn.net/jpg/01/30/40/05/360_F_130400578_ydtJTigsl4Z5p6QihkfnsVDzDEO9eClS.jpg" alt="Ratonero" class="rounded-xl h-36 w-full object-cover">
+      <div class="py-2 px-3">
+    
+      <div class="flex justify-between">
+             
+      <h2 class="font-semibold text-gray-800">Gooney</h2>
+<svg class="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+      </div>
+      <p class="text-xs text-gray-600">ratonero</p>
+      <div class="flex items-center mt-4">
+        <img src="https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg?auto=compress&cs=tinysrgb&crop=faces&fit=crop&h=200&w=200" alt="Owner" class="rounded-full w-8 h-8 object-cover">
+        <span class="ml-2">Anastasia</span>
+      </div>
+       
+      </div>
+    </div>
+      <div class="rounded-xl bg-white shadow-lg">
+          <img src="https://as1.ftcdn.net/jpg/00/39/86/88/500_F_39868883_C0Lpw94EQ7r840GdXkcxynLVMZJDPYnS.jpg" alt="Siberian kitten" class="rounded-xl h-44 w-full object-cover">
+      <div class="py-2 px-3">
+    
+      <div class="flex justify-between">
+             
+      <h2 class="font-semibold text-gray-800">Lisa</h2>
+<svg class="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+      </div>
+      <p class="text-xs text-gray-600">siberian kitten</p>
+      <div class="flex items-center mt-4">
+        <img src="https://images.pexels.com/photos/247917/pexels-photo-247917.jpeg?crop=faces&fit=crop&h=200&w=200&auto=compress&cs=tinysrgb" alt="Owner" class="rounded-full w-8 h-8 object-cover">
+        <span class="ml-2">Matthew</span>
+      </div>
+       
+      </div>
+    </div>
+    
+      <div class="rounded-xl bg-white shadow-lg h-64 transform -translate-y-5">
+          <img src="https://as1.ftcdn.net/jpg/02/12/36/26/500_F_212362662_fSacHwyxB54a8OvX1Lh1HUCbRV87ZqT4.jpg" alt="british kitten" class="rounded-xl h-36 w-full object-cover">
+      <div class="py-2 px-3">
+    
+      <div class="flex justify-between">
+             
+      <h2 class="font-semibold text-gray-800">Jingsy</h2>
+<svg class="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+      </div>
+      <p class="text-xs text-gray-600">british kitten</p>
+      <div class="flex items-center mt-4">
+        <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&crop=faces&fit=crop&h=200&w=200" alt="Owner" class="rounded-full w-8 h-8 object-cover">
+        <span class="ml-2">Edward</span>
+      </div>
+       
+      </div>
+    </div>
+      <div class="rounded-xl bg-white shadow-lg">
+          <img src="https://as2.ftcdn.net/jpg/01/99/00/79/500_F_199007925_NolyRdRrdYqUAGdVZV38P4WX8pYfBaRP.jpg" alt="golden puppy" class="rounded-xl h-44 w-full object-cover">
+      <div class="py-2 px-3">
+    
+      <div class="flex justify-between">
+             
+      <h2 class="font-semibold text-gray-800">Jack</h2>
+<svg class="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+      </div>
+      <p class="text-xs text-gray-600">golden puppy</p>
+      <div class="flex items-center mt-4">
+        <img src="https://images.pexels.com/photos/712513/pexels-photo-712513.jpeg?auto=compress&cs=tinysrgb&crop=faces&fit=crop&h=200&w=200" alt="Owner" class="rounded-full w-8 h-8 object-cover">
+        <span class="ml-2">Lea</span>
+      </div>
+       
+      </div>
+    </div>
+  </section>
+  
+  <footer class="bg-white h-16 grid items-center px-7 rounded-b-xl" style="margin-left:-28px;margin-right:-28px;">
+    <ul class="flex justify-between items-center">
+      <li><svg class="w-7 h-7 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg></li>
+      <li><svg class="w-7 h-7 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></li>
+      <li><svg class="w-7 h-7 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg></li>
+      <li><svg class="w-7 h-7 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg></li>
+    </ul>
+  </footer>
+</div>
+
